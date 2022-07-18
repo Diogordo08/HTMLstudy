@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Formatação de textos </title>
+    </head>
+    <body>
+        <h1> Principais formatações</h1> <!-- Aprendendo formatações com e sem semantica (sem semantica normalmente obsoletas, logo serão inutilizadas)-->
+            <h2> negrito / destaque </h2>
+                <p> Nesta frase <b>temos um termo em negrito</b> usando a tag &lt;b&gt; (não semantica) </p>
+                <p> Nesta frase <strong>temos um termo em destque</strong> usando a tag &lt;strong&gt; (semantica) </p>
+            
+            <h2> italico / enfase </h2>
+                <p> Nesta frase <i>temos um termo em italico</i> usando a tag &lt;i&gt; (não semantica) </p>
+                <p> Nesta frase <em>temos um termo em enfase</em> usando a tag &lt;em&gt; (semantica) </p>
+    </body>
+</html>
+
+<!-- Dica envolopar partes do texto: seleciona, ctrl + shift + p, wrap with abreviation -->
