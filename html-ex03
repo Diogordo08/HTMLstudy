@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emojis e Simbolos</title>
+</head>
+<body>
+    <h1>Emojis e Simbolos</h1>
+    <hr>
+    <p> Você pode escrever um paragrafo de qualquer forma. <br> Basta colocar tudo entre o par de tags &lt;p&gt; e &lt;/p&gt; </p> <!-- Lt e Gt significam less than, and Greater than -->
+
+    <p> Caso queira quebrar o texto em algum local especifico,<br> como esse você pode usar a tag &lt;br&gt; </p>
+    <p>Agora vamos adicionar simbolos especiais: &reg;, &copy;,&trade;, &euro;, &pound;, &yen;, &cent;, &Delta;, &uparrow;, &downarrow;, &uarr;, &darr;</p> <!-- Mais alguns exemplos de simbolos -->
+    <p>Vamos adicionar alguns emojis: &#x1F596 &#x1F913 </p> <!-- O mesmo para emojis -->
+</body>
+</html>
