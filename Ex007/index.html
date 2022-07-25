@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Formatação de textos </title>
+        <style> mark{
+            background-color: lightcoral;
+            } /* Isso deixa de ser semantica e se torna estilização */
+        </style> <!-- Esse style é CSS não mais HTML -->
+    </head>
+    <body>
+        <h1> Principais formatações</h1> <!-- Aprendendo formatações com e sem semantica (sem semantica normalmente obsoletas, logo serão inutilizadas)-->
+            <h2> negrito / destaque </h2>
+                <p> Nesta frase <b>temos um termo em negrito</b> usando a tag &lt;b&gt; (não semantica) </p>
+
+                <p> Nesta frase <strong>temos um termo em destque</strong> usando a tag &lt;strong&gt; (semantica) </p>
+            
+            <h2> italico / enfase </h2>
+                <p> Nesta frase <i>temos um termo em italico</i> usando a tag &lt;i&gt; (não semantica) </p>
+
+                <p> Nesta frase <em>temos um termo em enfase</em> usando a tag &lt;em&gt; (semantica) </p>
+            
+            <h2> texto marcado </h2>
+                <p>podemos tambem <mark>criar um texto marcado</mark>, usando a tag mark</p>
+
+                <p>Temos <mark>outro texto marcado no final.</mark></p>
+
+            <h2> texto grande e pequeno </h2>
+                <p>Estamos criando um <big>Texto grande</big> <!-- Big deixou de ser usado, esta obsoleto --> e um <small>Texto pequeno</small></p>
+
+            <h2> texto deletado </h2>
+                <p>Podemos criar um <del>texto deletado</del>, para mostrar que ele deve ser lido mas não considerado</p>
+            <h2> texto inserido</h2>
+                <p>Podemos criar um <ins>texto inserido</ins> para indicar que o mesmo foi adicionado depois</p>
+                <p>Existe tambem o <u>texto sublinhado</u> com a tag &lt;u&gt; (não semantica)</p>
+            
+            <h2> texto sobrescrito </h2>
+                <p>Serve para coisas tipo X<sup>20</sup>+3 </p>
+            <h2> texto subescrito </h2>
+                <p>Serve para coisas tipo h<sub>2</sub>o </p>
+    </body>
+</html>
+
+<!-- Dica envolopar partes do texto: seleciona, ctrl + shift + p, wrap with abreviation -->
